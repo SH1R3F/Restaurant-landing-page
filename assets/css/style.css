@@ -1,12 +1,15 @@
-header .bg-image {
+.bg-image {
 	background-image: url("../img/bg.jpg");
 	height: 400px;
 }
+main .book.bg-image {
+	background-image: url("../img/bg-table.jpg");
+}
 @media (min-width: 576px) {
-	header .bg-image {
+	.bg-image {
 		height: 600px;
 	}
 }
-header .bg-image .mask {
+.bg-image .mask {
 	background-color: rgba(0, 0, 0, 0.6);
 }
