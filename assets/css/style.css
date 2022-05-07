@@ -1,0 +1,12 @@
+header .bg-image {
+	background-image: url("../img/bg.jpg");
+	height: 400px;
+}
+@media (min-width: 576px) {
+	header .bg-image {
+		height: 600px;
+	}
+}
+header .bg-image .mask {
+	background-color: rgba(0, 0, 0, 0.6);
+}
