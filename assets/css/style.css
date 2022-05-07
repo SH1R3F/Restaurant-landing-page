@@ -2,9 +2,6 @@
 	background-image: url("../img/bg.jpg");
 	height: 400px;
 }
-main .book.bg-image {
-	background-image: url("../img/bg-table.jpg");
-}
 @media (min-width: 576px) {
 	.bg-image {
 		height: 600px;
@@ -12,4 +9,8 @@ main .book.bg-image {
 }
 .bg-image .mask {
 	background-color: rgba(0, 0, 0, 0.6);
+}
+main .book.bg-image {
+	background-image: url("../img/bg-table.jpg");
+	height: 400px;
 }
